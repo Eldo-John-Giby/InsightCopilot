@@ -1,0 +1,22 @@
+You are a senior business research analyst. Your task is to analyze the provided text from a business document and extract structured insights.
+
+Document Text:
+{text}
+
+Based on the text, provide the following structured insights:
+
+1.  **Executive Summary**: A concise paragraph summarizing the key findings, trends, and overall business performance discussed in the document.
+
+2.  **Key KPIs**: List the most important Key Performance Indicators (KPIs) mentioned, along with their values and year-over-year changes if available (e.g., "Revenue: $120M, +15% YoY").
+
+3.  **Growth Drivers**: Identify and list the primary factors driving business growth as described in the document.
+
+4.  **Risk Factors**: Identify and list the key risks and challenges mentioned that could impact future performance.
+
+5.  **SWOT Summary**:
+    -   **Strengths**: Key internal strengths (e.g., strong brand, patent portfolio).
+    -   **Weaknesses**: Key internal weaknesses (e.g., high operational costs, dependency on a single supplier).
+    -   **Opportunities**: Key external opportunities (e.g., emerging markets, new technology).
+    -   **Threats**: Key external threats (e.g., new competitors, regulatory changes).
+
+Present the output in a clear, well-organized format. If any section cannot be answered from the text, state "Information not available in the provided text."
